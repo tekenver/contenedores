@@ -1,0 +1,275 @@
+.principal
+{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.cajaRojo
+{
+    display: flex;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 5px;
+    width:  280px;
+    height: 450px;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap; 
+    align-content: center;
+}.cajaVerde
+{
+    display: flex;
+    background-color:chocolate;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    flex-wrap: wrap; 
+    align-content: center;
+}
+.cajaAmarillo
+{
+    display: flex;
+    background-color: brown;
+    margin: 5px;
+    padding: 5px;
+    width:  350px;
+    height: 450px;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    flex-wrap: wrap; 
+    align-content: center;
+}
+
+
+.col1
+{
+    display: flex;
+    background-color: blueviolet;
+    margin: 5px;
+    flex-grow: 1; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+
+}
+.col2
+{
+    display: flex;
+    background-color: blueviolet;
+    margin: 5px;
+    flex-grow: 2; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+.cajaR
+{
+    background-color: red;
+    margin: 5px;
+    height: 200px;
+    width: 120px;
+    text-align-last: center;
+    
+}
+.v1
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v2
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v3
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v4
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v5
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v6
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v7
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v8
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+.v9
+{
+    background-color: greenyellow;
+    margin: 5px;
+    width: 120px;
+    height:100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.a1
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 3;
+}
+.a2
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+}
+.a3
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+}
+.a4
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+}
+.a5
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+}
+.a6
+{
+    background-color:yellow;
+    margin: 5px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 2;
+}
+/*.list1
+{
+    display: flex;
+    background-color: brown;
+    margin: 5px;
+    flex-grow: 1; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    flex-grow: list2;
+    
+}
+.list2
+{
+    display: flex;
+    background-color: brown;
+    margin: 5px;
+    flex-grow: 1; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.list3
+{ 
+    display: flex;
+    background-color: brown;
+    margin: 5px;
+    flex-grow: 1; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+<div class="cajaAmarillo">
+           <div class="list1">
+            <div class="a1">0</div>
+           </div>
+
+           <div class="list2">
+            <div class="a2">1</div>
+            <div class="a3">2</div>
+           </div> 
+            <div class="list3">
+                <div class="a4">3</div>
+                <div class="a5">4</div>
+            </div>
+            <div class list4>
+                <div class="a6">5</div>
+            </div>
+        </div>
+*/
+
